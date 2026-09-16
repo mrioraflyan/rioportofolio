@@ -958,13 +958,6 @@ section{
     margin-bottom:18px;
 }
 
-.about-info{
-    margin-top:35px;
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:20px;
-}
-
 .info-card{
     padding:22px;
 }
@@ -973,11 +966,6 @@ section{
     color:var(--primary);
     margin-bottom:8px;
 }
-
-.info-card p{
-    margin:0;
-}
-
 /*======================================================
                     EDUCATION
 ======================================================*/
