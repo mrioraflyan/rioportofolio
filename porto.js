@@ -1,5 +1,3 @@
-alert("JavaScript berhasil terbaca");
-
 document.addEventListener("DOMContentLoaded", function () {
 
     const modal = document.getElementById("certificateModal");
