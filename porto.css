@@ -65,22 +65,20 @@
 
 html{
     scroll-behavior:smooth;
-    width:100%;
-    min-width:0;
-    max-width:100%;
+    overflow-x:clip;
 }
 
 body{
     font-family:'Poppins',sans-serif;
     background:var(--bg);
-    color:var(--text);
+    overflow-x:clip;
     overflow-x:hidden;
     line-height:1.7;
     position:relative;
 
-    /* Prevent the page from becoming narrower than the viewport */
     width:100%;
     min-width:0;
+    max-width:100%;
     max-width:100%;
 }
 
@@ -240,8 +238,6 @@ section{
 }
 
 main{
-    width:100%;
-    max-width:100%;
     min-width:0;
 }
 
