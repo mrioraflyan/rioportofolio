@@ -403,12 +403,13 @@ main{
 /* Hamburger Toggle Menu Button */
 .hamburger {
     display: none;
+    background:none;
     font-size: 1.8rem;
-    background: none;
     border: none;
     cursor: pointer;
     color: var(--text);
     margin-left: 110px;
+
 }
 
 /*======================================================
@@ -1725,12 +1726,13 @@ footer hr{
         top: 100px;
         left: -100%;
         width: 100%;
-        height: calc(100px - 100px);
-        background: rgba(255, 255, 255, 0.98);
+        height: calc(100vh - 100px);
+        background : white;
         backdrop-filter: blur(15px);
         flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
+        padding-left: 30px;
         gap: 25px;
         transition: 0.4s ease;
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
