@@ -327,14 +327,16 @@ main{
                     NAVBAR
 ======================================================*/
 
-.navbar{
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .logo{
@@ -408,7 +410,7 @@ main{
     border: none;
     cursor: pointer;
     color: var(--text);
-    margin-left: 110px;
+    margin-left: auto;
 
 }
 
